@@ -32,7 +32,7 @@ tr:nth-child(even) {
 } */
 
 /* _______LESSON 2, [Bài tập] Tạo Element thể hiện Profile Card (như hình minh hoạ) */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -109,4 +109,35 @@ body {
   padding: 1em 2em;
   text-align: center;
   font-weight: 700;
+} */
+
+/* _______LESSON 2, [Bài tập] Tạo Element thể hiện Sign in Form sử dụng Bootstrap */
+.container {
+  height: 100vh;
+}
+
+.form-signin {
+  width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
